@@ -9,9 +9,13 @@ import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
 
+let currentYear = new Date().getFullYear();
+let startYear = 2021
+let experience = currentYear - startYear;
+
 export const metadata = {
-  title: "Ricardo | Personal Portfolio",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
+  title: "Mahamadi | Personal Portfolio",
+  description: `Mahamadi is a full-stack developer with ${experience} years of experience.`,
 };
 
 export default function RootLayout({

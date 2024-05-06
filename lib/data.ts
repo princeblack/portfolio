@@ -1,10 +1,10 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import playground from "@/public/playground.jpg";
+import hoppipolla from "@/public/hoppipolla.jpg";
+import ecommerce from "@/public/e-commerce.png";
+import book from "@/public/book.jpg";
 
 export const links = [
   {
@@ -36,51 +36,74 @@ export const links = [
 export const experiencesData = [
   {
     title: "Graduated bootcamp",
-    location: "Miami, FL",
+    compagny: "DCI Digital Career Institute",
+    location: "Berlin, GR",
     description:
       "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2019 - 2020",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Intern Front-End Developer",
+    compagny: "Staiy",
+    location: "Berlin, GR",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer for Developing and implementing software solutions based on Figma designs. Tested and refined software prior to rollout, and released ad hoc product patches.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Feb 2021 - Jun 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Intern Front-End Developer",
+    compagny: "Zalando SE",
+    location: "Berlin, GR",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Developed and implemented software solutions for Zalando retail based on provided designs.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jun 2021 - Sep 2021",
+  },
+  {
+    title: "Software Developer",
+    compagny: "TA Europe Analytics",
+    location: "Berlin, GR",
+    description:
+      "Collaborated with development team and stakeholders to design and create front-end software solutions, Conducted feasibility tests for software prototypes and implemented necessary modifications.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Oct 2021 - Jan 2024",
   },
 ] as const;
 
+React
+Node
+
+
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Remgika",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Remgika is a social network for parents, parents can creat groupes, chat, add playground or child activity place and  give public feedback to the place.",
+    tags: ["Javascript","React","Node", "Express", "MongoDB", "Nginx", "Socket","Scss"],
+    imageUrl: playground,
   },
   {
-    title: "rmtDev",
+    title: "Hoppípolla",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Hoppípolla, a newly Berlin founded kindergarten (‘kita’) with an ambitious concept.",
+    tags: ["Javascript", "HTML", "Scss"],
+    imageUrl: hoppipolla,
   },
   {
-    title: "Word Analytics",
+    title: "shopping",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A simple shopping shop site build with: ",
+    tags: ["React", "Javascript", "Scss"],
+    imageUrl: ecommerce,
+  },
+  {
+    title: "Book",
+    description:
+      "A React Api Books and Movies build with: ",
+    tags: ["React", "Javascript", "Scss"],
+    imageUrl: book,
   },
 ] as const;
 
@@ -94,14 +117,16 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
+  "Bootstrap",
+  "Storybook",
+  "styled-components",
   "Prisma",
   "MongoDB",
   "Redux",
   "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
+  // "Python",
+  // "Django",
   "Framer Motion",
 ] as const;

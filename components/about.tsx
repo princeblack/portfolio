@@ -19,30 +19,35 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        I started programming irregularly as a self-taught person because I've
+        always been curious and passionate about understanding how things work
+        on the web, and when I moved to{" "}
+        <span className="font-medium">Germany</span>, I decided to learn
+        programming professionally to pursue my passion for
+        programming. I took an intensive full-time one-year course in web development at
+        DCI Digital Career Institute, where I gained hands-on experience of
+        complete <span className="font-medium">full-stack web development</span>{" "}
+        with Node.js, React, Redux, and more.{" "}
+        <span className="italic">My favorite thing about programming</span> is
+        the problem-solving I <span className="underline">love</span> feeling of
+        having finally found a solution to a problem. My core stack is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          React, Next.js, Node.js, and MongoDB. I'm also familiar with
+          TypeScript and Prisma
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
+        I emphasize continuous learning and improvement, and am always eager to
+        explore new technologies and methodologies. I'm currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">When I'm not coding</span>, you can find me
+        exploring Berlin's vibrant culture, playing video games and watching
+        movies.{" "}
+        <span className="font-medium">I also like to learn new things.</span>.
+        I'm currently learning{" "}
+        <span className="font-medium">Java and Python.</span>
       </p>
     </motion.section>
   );
