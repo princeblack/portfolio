@@ -33,9 +33,9 @@ export default function About() {
         having finally found a solution to a problem. My core stack is{" "}
         <span className="font-medium">
           React, Next.js, Node.js, and MongoDB. I'm also familiar with
-          TypeScript and Prisma
+          TypeScript and Prisma.{" "} 
         </span>
-        I emphasize continuous learning and improvement, and am always eager to
+         I emphasize continuous learning and improvement, and am always eager to
         explore new technologies and methodologies. I'm currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
